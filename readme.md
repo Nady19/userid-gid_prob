@@ -38,8 +38,6 @@ learn and read about uuid and gid
 
 ->> again `sudo docker ps`
 
-->> `sudo docker exec -it bff sh`
-
 ->> `vi Dockerfile`
 
 ->> to create a group
@@ -117,5 +115,5 @@ to be sure if it is the case i once again check `vi /etc/group/` and go to botto
 
 that means creating a group here in the terminal never meant anything neither did adding a user here in the terminal.
 
-->>wondering why is that...........because of the container...we are building a dockerfile so the group ,the user everything should be inside there, not in the terminal of the server we created
+->>wondering why is that...........because of the container...we are building a dockerfile, so the group ,the user everything should be inside there,inside the container we are gonna build , not in the terminal of the server we created
 
